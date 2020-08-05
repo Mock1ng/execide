@@ -1,0 +1,81 @@
+.user {
+    padding: 0 10%;
+    margin-top: 30px;
+
+    h3 {
+        font-size: 2rem;
+        margin: 15px 0
+    }
+
+    form {
+        width: 700px;
+
+        .input-section {
+            margin-bottom: 10px;
+
+            label {
+                font-size: 1.2rem;
+            }
+
+            input,
+            select {
+                height: 30px;
+                width: 100%;
+                padding: 0 10px;
+            }
+
+            input {
+                border: 1px solid #cecece;
+            }
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #005050;
+            color: #fff;
+
+            &:hover {
+                filter: brightness(120%);
+                cursor: pointer;
+            }
+        }
+    }
+
+    .users-container {
+        width: 300px;
+        margin-top: 40px;
+
+        h4 {
+            font-size: 1.5rem;
+        }
+
+        ol {
+
+            li {
+                margin: 10px;
+                padding: 5px;
+                width: 100%;
+                position: relative;
+                text-transform: capitalize;
+
+                button {
+                    position: absolute;
+                    right: 0;
+                    padding: 5px;
+                    border: none;
+                    border-radius: 5px;
+                    background: red;
+                    color: #fff;
+
+                    &:hover {
+                        filter: brightness(120%);
+                        cursor: pointer;
+                    }
+
+                }
+            }
+        }
+    }
+}

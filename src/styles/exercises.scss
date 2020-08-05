@@ -1,0 +1,77 @@
+.exercises {
+    position: relative;
+    width: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .link {
+        background: #005050;
+        color: #fff;
+        display: inline-block;
+        padding: 10px;
+        position: relative;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 50px;
+
+        &:hover {
+            filter: brightness(120%);
+        }
+    }
+
+    .no-exercise-text {
+        margin-top: 10px;
+    }
+
+    table {
+        width: 800px;
+        text-align: center;
+        border-collapse: collapse;
+        border-bottom: 3px solid #005050;
+        // margin-top: 50px;
+
+        thead {
+            background: #005050;
+
+            th {
+                height: 50px;
+                color: #fff;
+            }
+        }
+
+        tbody {
+            td {
+                height: 40px;
+                border-bottom: 2px solid #cecece;
+                text-transform: capitalize;
+
+                .edit,
+                .delete {
+                    padding: 5px 10px;
+                    border: none;
+                    border-radius: 5px;
+
+                    &:hover {
+                        filter: brightness(120%);
+                        cursor: pointer;
+                    }
+                }
+
+                .edit {
+                    background: rgb(0, 54, 201);
+
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+
+                .delete {
+                    background: rgb(255, 25, 25);
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

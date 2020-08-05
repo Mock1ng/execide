@@ -1,0 +1,44 @@
+.create-exercise {
+    padding: 0 10%;
+
+    h3 {
+        font-size: 2rem;
+        margin: 15px 0
+    }
+
+    form {
+        width: 700px;
+
+        .input-section {
+            margin-bottom: 10px;
+
+            label {
+                font-size: 1.2rem;
+            }
+
+            input,
+            select {
+                height: 30px;
+                width: 100%;
+                padding: 0 10px;
+            }
+
+            input {
+                border: 1px solid #cecece;
+            }
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #005050;
+            color: #fff;
+
+            &:hover {
+                filter: brightness(120%);
+                cursor: pointer;
+            }
+        }
+    }
+}

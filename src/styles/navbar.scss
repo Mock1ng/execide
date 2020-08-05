@@ -1,0 +1,31 @@
+nav {
+    background: #005050;
+    padding: 0 10%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: #fff;
+    height: 50px;
+
+    .logo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        position: relative;
+        margin-left: auto;
+        display: flex;
+
+        .navlink {
+            list-style: none;
+            margin-left: 30px;
+            cursor: pointer;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
